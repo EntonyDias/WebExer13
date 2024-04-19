@@ -1,0 +1,74 @@
+body, html{
+    color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: purple;
+    padding-top: 0px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 8px;
+    text-align: center;
+    z-index: 8888888;
+}
+
+.Vex{
+    position: sticky;
+    background-color: blueviolet;
+    width: 30%;
+    height: 300vh;
+    top: 46px;
+    z-index: 888;
+    float: left;
+}
+
+.Poppy {
+    background-color: darkorchid;
+    z-index: 888888;
+    margin-top: 46px;
+    margin-left: 2%;
+}
+.Tristana {
+    background-color: darkmagenta;
+    z-index: 888888;
+    position: relative;
+}
+
+main{
+    margin-left: 28%;
+}
+
+section{
+    padding: 20px;
+    height: 888px;
+   }
+
+   .Flash{
+    right: 3%;
+    bottom: 3%;
+    position: absolute;
+    padding: 20px;
+    background-color: darkviolet;
+  }
+
+  footer{
+    background-color: purple;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    margin: 0;
+    padding-top: 8px;
+    font-size: 8px;
+    text-align: center;
+    z-index: 8888888;
+  }
+
+  section:nth-child(3){
+    background-color: plum;
+  }
